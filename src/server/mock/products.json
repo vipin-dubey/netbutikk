@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Tech Stretch Skinny Jeans",
+      "price": 49900,
+      "imageURL": "assests/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Tech Stretch Skinny Jeans",
+      "price": 29900,
+      "imageURL": "assests/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Tech Stretch Skinny Jeans",
+      "price": 59900,
+      "imageURL": "assests/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Straight Denim Shorts",
+      "price": 79900,
+      "imageURL": "assests/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Denimshorts Slim fit",
+      "price": 19900,
+      "imageURL": "assests/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Denimshorts",
+      "price": 99900,
+      "imageURL": "assests/6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Twillshorts",
+      "price": 39900,
+      "imageURL": "assests/7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Twillshorts",
+      "price": 59900,
+      "imageURL": "assests/8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Straight Denim Shorts",
+      "price": 69900,
+      "imageURL": "assests/9.jpg"
+    }
+  ]
+}

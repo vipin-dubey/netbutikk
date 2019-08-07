@@ -1,0 +1,36 @@
+/* This application is built using Carbon Design System and uses Carbon Components React for application components.
+   To learn more about carbon kindly visit https://www.carbondesignsystem.com/ 
+   Theme : Carbon Grey 10% (can be changed using $carbon--theme variable)
+   Icons : Carbon Icons
+   Components : Carbon Components React
+   Default Grid : 16 Columns
+   Author : Vipin Dubey (er.vipindubey@gmail.com) 
+*/
+
+$feature-flags: (
+  ui-shell: true,
+  grid-columns-16: true
+);
+// from the IBM Carbon Components
+@import "~carbon-components/scss/globals/scss/styles.scss";
+// from the IBM Design Language
+@import "~carbon-components/scss/globals/scss/_colors.scss";
+// Bring in color theme tokens
+@import "~carbon-components/scss/globals/scss/_theme.scss";
+// Imports spacing tokens for you to use
+@import "~carbon-components/scss/globals/scss/_spacing.scss";
+// Bring in carbon themes
+@import "@carbon/themes/scss/themes.scss";
+
+$carbon--theme: $carbon--theme--g10;
+
+// Use the gray 10 theme
+@include carbon--theme();
+
+/* Import App style */
+@import "./App.scss";
+
+body {
+  background: $ui-background;
+  height: 100%;
+}

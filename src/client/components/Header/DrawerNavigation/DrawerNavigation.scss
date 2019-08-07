@@ -1,0 +1,23 @@
+/* DrawerNavigation styles */
+#drawer {
+  ul {
+    list-style-type: none;
+    a {
+      display: block;
+      padding: 10px;
+      color: $text-02;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    a:hover {
+      color: $text-01;
+    }
+    a.active {
+      color: $link-01;
+    }
+  }
+
+  .bx--accordion__content {
+    padding-right: 0% !important;
+  }
+}

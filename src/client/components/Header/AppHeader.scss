@@ -1,0 +1,76 @@
+/* Import other styles as required */
+
+// Import logo component css
+@import "./Logo/Logo.scss";
+// Import search component css
+@import "./Search/Search.scss";
+// Import cart component css
+@import "./Cart/Cart.scss";
+// Import navigation styles
+@import "./DrawerNavigation/DrawerNavigation.scss";
+@import "./BreadcrumbNavigation/BreadcrumbNavigation.scss";
+
+/*  App Header specific styles */
+.search-modal {
+  .bx--modal-container {
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+    margin-top: 97px;
+  }
+  .bx--modal-content {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+.bx--header__menu-arrow {
+  will-change: auto !important;
+}
+
+.bx--header__nav {
+  display: block;
+}
+
+.app-switcher {
+  display: none !important;
+}
+.drawer-navigation {
+  background: $ui-02;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 50px;
+  z-index: 9999;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.bx--tag {
+  cursor: pointer;
+}
+
+/* Media queries for specific screen sizes */
+
+@media all and (max-width: 1690px) {
+}
+@media all and (max-width: 1280px) {
+}
+@media all and (max-width: 980px) {
+  .bx--header__nav {
+    display: none;
+  }
+
+  .app-switcher {
+    display: inline-block !important;
+  }
+}
+
+@media all and (max-width: 736px) {
+}
+@media all and (max-width: 480px) {
+}

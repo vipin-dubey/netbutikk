@@ -1,0 +1,10 @@
+/* Search Box styles */
+.product-search-visible {
+  width: 100%;
+  z-index: 999999;
+  margin-top: 11px;
+}
+
+.product-search-hidden {
+  visibility: hidden;
+}

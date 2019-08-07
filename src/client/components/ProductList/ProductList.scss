@@ -1,0 +1,92 @@
+/* Product List styles */
+.content-wrapper {
+  margin-top: 10px;
+}
+
+.main-conten-area {
+  background: $ui-01;
+}
+
+.page-title {
+  font-weight: 700;
+}
+
+.page-description {
+  width: 75%;
+}
+
+.product-section {
+  margin-top: 32px;
+
+  .product {
+    margin-bottom: 30px;
+
+    .product-image {
+      min-height: 300px;
+    }
+
+    .product-detail {
+      padding: 20px;
+
+      p {
+        margin-bottom: 10px;
+      }
+
+      p.product-price {
+        color: $text-01;
+      }
+
+      .product-action {
+        text-align: end;
+      }
+    }
+  }
+}
+
+.product-list {
+  padding-top: 20px;
+  margin-top: 10px;
+}
+
+.side-navigation {
+  h4 {
+    padding-top: 10px;
+  }
+  ul {
+    padding-top: 10px;
+    li {
+      a {
+        text-decoration: none;
+        color: $text-02;
+      }
+      a:hover,
+      a:focus,
+      a:active {
+        text-decoration: none;
+        color: $ui-05;
+      }
+    }
+  }
+}
+
+/* Media queries for specific screen sizes */
+
+@media all and (max-width: 1690px) {
+}
+@media all and (max-width: 1280px) {
+}
+@media all and (max-width: 980px) {
+  .side-navigation {
+    display: none;
+  }
+}
+@media all and (max-width: 736px) {
+  .bx--breadcrumb-item {
+    display: inline-block;
+  }
+}
+@media all and (max-width: 480px) {
+  .page-description {
+    width: 95%;
+  }
+}
