@@ -16,7 +16,7 @@ Netbuttik is a responsive web application built from scratch using ReactJS, Redu
 
 - Please install following tools globally (make sure they are added to PATH environment variable)
 
-  1. Node (10.16.0) - https://nodejs.org/en/
+  1. Node (v12) - https://nodejs.org/en/
   2. NPM (6.9.0) - comes with node
   3. Yarn (1.9.4) - https://yarnpkg.com/en/docs/install#windows-stable
 
